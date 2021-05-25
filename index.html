@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="https://kit.fontawesome.com/5fa52de286.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles.css" />
+    <title>DASHBOARD</title>
+  </head>
+<!--header-->
+  <body id="body">
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav_icon" onclick="toggleSidebar()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div class="navbar__left">
+          <a class="active_link" href="#">Admin</a>
+        </div>
+        <div class="navbar__right">
+          <a href="#">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <img width="30" src="assets/avatar.svg" alt="" />
+            
+          </a>
+        </div>
+      </nav>
+<!--header ends-->
+      <main>
+        <div class="main__container">
+          <!-- MAIN TITLE  -->
+
+          <div class="main__title">
+            <img src="assets/hello.svg" alt="" />
+            <div class="main__greeting">
+              <h1>Hello Champions</h1>
+              <p>Welcome to admin dashboard</p>
+            </div>
+          </div>
+
+          <!-- MAIN TITLE ENDS -->
+
+          <!-- MAIN PAGE DIV STARTS HERE -->
+          <div class="main__cards">
+            <div class="card">
+              <i
+                class="fa fa-user-o fa-2x text-lightblue"
+                aria-hidden="true"
+              ></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Number of Students active </p>
+                <span class="font-bold text-title">578</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <i class="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Number of Students enrolled </p>
+                <span class="font-bold text-title">2467</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <i
+                class="fa fa-video-camera fa-2x text-yellow"
+                aria-hidden="true"
+              ></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Number of Videos</p>
+                <span class="font-bold text-title">130</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <i
+                class="fa fa-thumbs-up fa-2x text-green"
+                aria-hidden="true"
+              ></i>
+              <div class="card_inner">
+                <p class="text-primary-p">Number of Likes</p>
+                <span class="font-bold text-title">845</span>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN PAGE DIV ENDS HERE -->
+
+          <!-- CHARTS STARTS HERE -->
+          <div class="charts">
+            <!--ANALYSIS -->
+            <div class="charts__left">
+              <div class="charts__left__title">
+                <div>
+                  <h1>Analytical reports</h1>
+                  <p>The number of students in web, data science and android are shown .</p>
+                </div>
+                <i class="fas fa-child" aria-hidden="true"></i>
+              </div>
+              <div id="apex1"></div>
+            </div>
+            
+            <!--ANALYSIS ENDS HERE-->
+            <!--UPCOMING LESSONS STARTS-->
+            
+            <div class="charts__right">
+              <div class="charts__right__title">
+                <div>
+                  <h1>Upcoming lessons</h1>
+                  <p>The upcoming extra seminars for all the students.</p>
+                </div>
+                <i class="fas fa-bookmark" aria-hidden="true"></i>
+              </div>
+
+              <div class="charts__right__cards">
+                <div class="card1">
+                  <h1>Panda Library of Python</h1><br>
+                  <p>28 May- 9:00 am onwards</p><br>
+                  <a href="#">
+                  <p>Click to join</p>
+                  </a>
+                </div>
+
+                <div class="card2">
+                  <h1>Responsive Sites</h1><br>
+                  <p>29 May - 12:00pm to 4:00pm</p><br>
+                  <a href="#">
+                  <p>Click to join</p>
+                  </a>
+                </div>
+
+                <div class="card3">
+                  <h1> What is Data Science?</h1><br>
+                  <p>28 May- 5:00 pm onwards</p><br>
+                  <a href="#">
+                  <p>Click to join</p>
+                  </a>
+                </div>
+
+                <div class="card4">
+                  <h1>Flutter</h1><br>
+                  <p>30 May- 12:00 am onwards</p><br>
+                  <a href="#">
+                  <p>Click to join</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!--UPCOMING LESSONS ENDS HERE-->
+
+            <!--HOMEWORK PROGRESS -->
+            <div class="charts">
+            <div class="charts__left">
+              <div class="charts__left__title">
+                <div>
+                 <h1>Homework Progress</h1><br>
+
+                    <p>Quizes</p>
+                    <div class="container1">
+                      <div class="skills html">90%</div>
+                    </div>
+                    <br>
+                    <p>Reading</p>
+                    <div class="container1">
+                      <div class="skills css">80%</div>
+                    </div>
+                    <br>
+                    <p>Writing</p>
+                    <div class="container1">
+                      <div class="skills js">65%</div>
+                    </div>
+                    <br>
+                    <p>Practice Question</p>
+                    <div class="container1">
+                      <div class="skills php">60%</div>
+                    </div>
+                    
+              </div><i class="fas fa-book-open" aria-hidden="true"></i>
+             </div>
+            </div>
+
+            <!--HOMEWORK PROGRESS ENDS HERE-->
+
+            <!--LEADERBOARD-->
+            
+            <div class="charts__right">
+    <div class="charts__right__title">
+    <div id="container1">
+    <h1> Leader Board of your course </h1>
+    
+      <div class="row">
+        <div class="name">Name</div><div class="score">Total Points</div>
+    </div>
+    <div class="row">
+    <div class="name">Snape</div><div class="score">430 </div>
+    </div>
+    <div class="row">
+        <div class="name">Lily</div><div class="score">580</div>
+    </div>
+    <div class="row">
+        <div class="name">Dumbledore</div><div class="score">310</div>
+    </div>
+    <div class="row">
+        <div class="name">Ron</div><div class="score">640</div>
+    </div>
+    <div class="row">
+        <div class="name">Heomine</div><div class="score">495</div>
+    </div>
+  </div>
+  <i class="fas fa-hat-wizard" aria-hidden="true"></i>
+</div>
+</div>
+</div>
+        
+          <!--LEADR BAORDS ENDS-->
+
+          <!-- TIME TABLE STARTS-->
+        
+      <div class="charts__left">
+       
+ <h1 style="color:  #2e4a66;font-size: 20px;">TIME TABLE</h1><br>   
+              <div class="charts__left__title">
+              
+     <div style="overflow-x:auto;">
+     
+    <table border="5" cellspacing="0" align="center">
+        <!--<caption>Timetable</caption>-->
+        <tr>
+            <td align="center" height="50" 
+                width="120"><br>
+                <b>Day</b></br>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>9:00-12:00</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>12:20-2:10</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>2:15-4:00</b>
+            </td>
+            <td align="center" height="50" 
+                width="120">
+                <b>4:05-5:40</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Monday</b></td>
+            <td align="center" height="50">Web Development</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">Android Development</td>
+            <td align="center" height="50"> </td>
+            
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Tuesday</b>
+            </td>
+            <td align="center" height="50">Data Science </td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50">Android Development</td>
+            
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50">Aritifial Intelligence</td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50">Web Development</td>
+            <td align="center" height="50"></td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50">Aritifial Intelligence</td>
+            <td align="center" height="50"></td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Friday</b>
+            </td>
+            <td align="center" height="50">Data Science</td>
+            <td align="center" height="50">Android Development</td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50"></td>
+        </tr>
+  
+    </table>
+  
+</div><i class="fas fa-book-reader" aria-hidden="true"></i>
+             </div>
+            </div>
+
+<!--TIMETABLE ENDS-->
+<!--MY COURSE BLOCK-->
+
+<div class="charts__left">
+              <div class="charts__left__title">
+                <div>
+   
+        <div><h1 style="color:  #2e4a66;font-size: 25px;">My Courses</h1>
+    </div>
+    <section id="course-list">
+      
+        <div class="course-box">
+            
+            <div class="course-img">
+                <div class="quality">Web Development Course</div>
+                <img src="assets/web.jpeg">
+            </div>
+           
+            <p>
+              The Complete Web Developer in 2021: Zero to Mastery
+Learn to code and become a Web Developer in 2021 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! </p>
+<a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/?gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-J0Kd5C11P-lGW2dkvAV4Hu6QkEipWlhN5Amblcu9WEFi6VBKB0OmkaAiLCEALw_wcB&matchtype=e&utm_campaign=WebDevelopment_v.PROF_la.EN_cc.INDIA_ti.8322&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_82381205498_._ad_521777870133_._kw_best+web+development+courses_._de_c_._dm__._pl__._ti_kwd-3027746652_._li_1007824_._pd__._" target="__blank">Open </a>
+            
+        </div>
+         
+         <div class="course-box">
+            
+            <div class="course-img">
+                <div class="quality">Android Development Course</div>
+                <img src="assets/ad.jpg">
+            </div>
+           <p>Android Java Masterclass - Become an App Developer
+Improve your career options by learning Android app Development. Master Android Studio and build your first app today</p>
+            <a href="https://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/"target="__blank">
+               open
+            </a>
+            
+        </div>
+        <div class="course-box">
+            
+            <div class="course-img">
+                <div class="quality">Artifial Intelligence Course </div>
+                <img src="assets/ai.jpeg">
+            </div>
+           <p>Tensorflow 2.0: Deep Learning and Artificial Intelligence
+Neural Networks for Computer Vision, Time Series Forecasting, NLP, GANs, Reinforcement Learning, and More!</p>
+            <a href="https://www.udemy.com/course/deep-learning-tensorflow-2/" target="__blank">
+               open
+            </a>
+            
+        </div>
+        <div class="course-box">
+            
+            <div class="course-img">
+                <div class="quality">Data Science Course</div>
+                <img src="assets/ds.png">
+            </div>
+           <p>The Data Science Course 2021: Complete Data Science Bootcamp
+Complete Data Science Training: Mathematics, Statistics, Python, Advanced Statistics in Python, Machine & Deep Learning</p>
+            <a href="https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/" target="__blank">
+                open
+            </a>
+            
+        </div>
+
+
+
+                </div>
+              </div>
+            </div>
+          
+<!--MY COURSE BLOC ENDS HERE-->
+
+     <!-- CHARTS ENDS HERE -->
+      </main>
+
+<!--SIDE BLOCK CONTENT STARTS HERE-->
+      <div id="sidebar">
+        <div class="sidebar__title">
+          <div class="sidebar__img">
+            <img src="assets/logo.png" alt="logo" />
+            <h1>   Webi-web</h1>
+          </div>
+          <i
+            onclick="closeSidebar()"
+            class="fa fa-times"
+            id="sidebarIcon"
+            aria-hidden="true"
+          ></i>
+        </div>
+
+        <div class="sidebar__menu">
+          <div class="sidebar__link active_menu_link">
+            <i class="fa fa-home"></i>
+            <a href="#">Dashboard</a>
+          </div>
+          
+          <div class="sidebar__link">
+            <i class="fa fa-user-secret" aria-hidden="true"></i>
+            <a href="#">My Courses </a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fa fa-building-o"></i>
+            <a href="#">Upcoming lessons</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fas fa-user-friends"></i>
+            <a href="#">Leader Board</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fas fa-chart-bar"></i>
+            <a href="#">Analytical graphs</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="far fa-calendar-minus"></i>
+            <a href="#">Timetable</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fas fa-book"></i>
+            <a href="#">Homework</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fab fa-odnoklassniki"></i>
+            <a href="#">Doubts Sessions</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="fas fa-hourglass-half"></i>
+            <a href="#">Tests</a>
+          </div>
+          <div class="sidebar__link">
+            <i class="far fa-bookmark"></i>
+            <a href="#">Bookmarks</a>
+          </div>
+          <div class="sidebar__link">
+           <i class="fas fa-cogs"></i>
+            <a href="#">Settings</a>
+          </div>
+
+          <div class="sidebar__logout">
+            <i class="fa fa-power-off"></i>
+            <a href="#">Log out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SIDE BLOCK CONTENT ENDS HERE-->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
