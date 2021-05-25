@@ -10,5 +10,7 @@ device - laptop,phone or desktop.
 
 In this project I have used html,CSS, Bootstrap and basic javascript. I even tried making it responsive.
 
+To view my page ,clink on : https://sejalsinghhhh24.github.io/DashBoard_C3-Experiential-Learning-Private-Limited/index.html
+
 
 
