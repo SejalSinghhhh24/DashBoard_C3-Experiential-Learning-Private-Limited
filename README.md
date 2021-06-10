@@ -12,5 +12,7 @@ In this project I have used html,CSS, Bootstrap and basic javascript. I even tri
 
 To view my page ,clink on : https://sejalsinghhhh24.github.io/DashBoard_C3-Experiential-Learning-Private-Limited/index.html
 
+A look of my dashboard-
 
+![image](https://user-images.githubusercontent.com/72331465/121556982-fb1b2300-ca31-11eb-80c6-c896cfbcbf1e.png)
 
